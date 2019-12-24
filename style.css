@@ -1,0 +1,56 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: "Comic Sans MS",sans-serif;
+    text-align: center;
+}
+
+.main a{
+    font-family: sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+
+}
+.main a:hover {
+color: white;
+    background: linear-gradient(45deg,lightgreen,darkcyan,lightgreen);
+}
+h1{
+    font-family: "Script MT Bold",sans-serif;
+    font-size: 40px;
+
+}
+h2{
+    background: linear-gradient(45deg,green,black,green);
+    color: white;
+    padding: 15px;
+    box-shadow: 0 5px 10px black;
+    border-radius: 50px;
+}
+table{
+    width: 100%;
+}
+img{
+    border-radius: 10px;
+    box-shadow: 0 5px 10px black;
+}
+
+
+.but{
+
+    background-color: orangered;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.but:hover{
+    background-color: green;
+}
+
